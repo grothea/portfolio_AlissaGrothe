@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Alissa Grothe's Portfolio</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- FONT -->
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+
+  <!--icons-->
+  <script src="https://kit.fontawesome.com/2e9a6e3366.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header class="navbar" id="header">
+    <div class="logo">
+        <a href="index.html"><img  src="images/LogoMakr-5xA3wQ.png" alt="Alissa Grothe" height="50px" width="100px"> </a>
+    </div>
+    <div class="navbar-toggle" id="toggle"><i class="fa fa-bars"></i></div>
+    <nav class="navbar-items navbar-items-center">
+      <div class="nav-link"><a href="#header">Resume</a></div>
+      <div class="nav-link"><a href="#about">About</a></div>
+      <div class="nav-link"><a href="#work">Work</a></div>
+      <div class="nav-link"><a href="#contact">Contact</a></div>
+    </nav>
+    <nav class="navbar-items navbar-items-right">
+      <div class="imgButtons"><a href="mailto:grothea20@gmail.com"><i class="far fa-envelope"></i></a></div>
+      <div class="imgButtons"><a href="https://www.linkedin.com/in/alissa-grothe/"><i class="fab fa-linkedin-in" style="margin-left: 2px"></i></a></div>
+    </nav>
+  </header>
+
+  <main class="u-full-width">
+  <section class="welcome u-full-width">
+    <div class="content">
+    <h1 data-aos="fade"><small>Hello, my name is </small><em class="highlight">Alissa</em>,</h1>
+    <h1 class="slideup"><small>I'm a </small><em class="highlight">Web Developer</em>.</h1>
+    <button><a href="resume-web.pdf" download ><i class="fa fa-download"></i> Download Resume</a></button> 
+    </div>
+  </section>
+
+  <section class="container" id="about">
+    <div class="row about" data-aos="zoom-in-up">
+      <div class="six columns">
+        <img src="images/Alissacropped.JPG" alt="Photo of Alissa" class="u-max-full-width">
+      </div>
+      <div class="six columns">
+        <h2 class="title" >About Me</h2>
+        <p>I'm a lifelong student learning web development. I started teaching myself how to code in 2019 and started taking online courses at Eastern Gateway Community College in 2020. I am on track to graduate with a AA degree in Buisness with a focus of Programming and Development.</p>
+        <p>I currently live in Denver, Colorado and work part time as a flight attendant. I love to travel, hike, and find new adventures.</p>
+      </div>
+    </div>
+  </section>
+    <aside class="skills container">
+     <h3 class="title twelve columns" >My Skills:</h3>
+      <div class="row">
+        <div class="four columns skills-item" data-aos="flip-left">
+          <i class="fab fa-html5"></i>
+          <h4>HTML5</h4>
+        </div>
+        <div class="four columns skills-item" data-aos="flip-down">
+          <i class="fab fa-css3-alt"></i>
+          <h4>CSS3</h4>
+        </div>
+        <div class="four columns skills-item" data-aos="flip-right">
+          <i class="fab fa-js-square"></i>
+          <h4>JavaScript</h4>
+        </div>
+      </div>
+    </aside>
+
+    <section class="container" id="work">
+      <h2 class="title" data-aos="fade">My Current Projects</h2>
+      <div class="row" data-aos="fade-left">
+        <h3 class="twelve columns">Matt's Workshop</h3>
+        <div class="five columns">
+          <img src="images/desktopall.png" alt="" class="u-max-full-width">
+        </div>
+        <div class="six columns">
+          <p>For Matt's Workshop I designed and developed a responsive web design using Bootstrap. This is a modular design featuring different wood working projects created by Matt.</p>
+          <ul class="list">
+            <li>Responsive Web Design</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row" data-aos="fade-right">
+        <h3 class="twelve columns">AG Home Rentals</h3>
+        <div class="five columns">
+          <img src="images/AGdesktopall.png" alt="AG Home Rentals" class="u-max-full-width">
+        </div>
+        <div class="six columns">
+          <p>AG Home Rentals is a responsive website that I designed and developed from scratch. This website features current rental properties with photo gallaries and details. In addition this website directs potential renters how to schedule a tour and apply.</p>
+          <ul class="list">
+            <li>Responsive Web Design</li>
+            <li>Customized features</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="contact">
+      <h2 class="title" data-aos="fade">Get In Touch!</h2>
+      <p data-aos="fade">Have a project in mind? Let's talk!</p>
+      <form class="kwes-form" action="https://kwes.io/api/foreign/forms/AC001r1kBTX8FnruTJ0V" data-aos="flip-right">
+        <div class="row">
+          <div class="six columns">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" class="u-full-width" placeholder="Name" autocomplete="name">
+          </div>
+          <div class="six columns">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" class="u-full-width" placeholder="Email Address">
+          </div>
+        </div>
+        <label for="message">Message:</label>
+          <textarea id="message" class="u-full-width" name="message" rows="4" placeholder="Your message..."></textarea>
+        <input type="submit" class="button-primary submit" value="Send">
+      </form>
+    </section>
+  </main>
+  <footer class="u-full-width">
+    <div class="top"><a href="#header"><i class="fas fa-chevron-up"></i></a></div>
+    <h3>Alissa Grothe</h3>
+    <nav class="footerButtons u-full-width">
+        <div class="imgButtons"><a href="mailto:grothea20@gmail.com"><i class="far fa-envelope"></i></a></div>
+        <div class="imgButtons"><a href="https://www.linkedin.com/in/alissa-grothe/"><i class="fab fa-linkedin-in" style="margin-left: 2px"></i></a></div>
+    </nav>
+    <small>Created my free logo at LogoMakr.com</small>
+  </footer>
+<!--end content -->
+<!-- Scripts -->
+  <script src="https://kwes.io/v2/kwes-script.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init({
+    duration: 1500,
+  });
+  </script>
+
+</body>
+</html>
